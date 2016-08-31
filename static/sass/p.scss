@@ -8,10 +8,21 @@ body{
 
 }
 
+h1{
+  @include remCalc(font-size,15);
+  @include remCalc(line-height,20);
+  word-break: break-all;
+  text-align: justify;
+  font-weight: bold;
+  color: $h2Color;
+}
+
 h2{
   @include remCalc(font-size,15);
   @include remCalc(line-height,28);
   color: $h2Color;
+  word-break: break-all;
+  text-align: justify;
 }
 
 p{
@@ -20,5 +31,6 @@ p{
   @include remCalc(line-height,20);
   @include remCalc(margin-bottom,10);
   color: $pColor;
+  word-break: break-all;
   text-align: justify;
 }
