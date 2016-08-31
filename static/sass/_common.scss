@@ -2,7 +2,13 @@
 @import "compass/reset";
 
 // 全局背景颜色
-$bgcolor:#f3f3f3;
+$bgcolor:#fff;
+
+$pColor:#999;
+
+$h2Color:#444;
+
+
 /*
  * 单位换算
  */
@@ -36,3 +42,4 @@ body{
     min-height: 100%;
     background-color: $bgcolor;
 }
+

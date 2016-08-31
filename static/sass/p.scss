@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import "common";
+
+body{
+  box-sizing: border-box;
+  @include remCalc(padding,10,20);
+  font-family:  Arial, STHeiti, 华文黑体, "Microsoft YaHei", 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, "Arial sans-serif";
+
+}
+
+h2{
+  @include remCalc(font-size,15);
+  @include remCalc(line-height,28);
+  color: $h2Color;
+}
+
+p{
+  font-family:  Arial, STHeiti, 华文黑体, "Microsoft YaHei", 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, "Arial sans-serif";
+  @include remCalc(font-size,13);
+  @include remCalc(line-height,20);
+  @include remCalc(margin-bottom,10);
+  color: $pColor;
+  text-align: justify;
+}

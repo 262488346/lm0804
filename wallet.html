@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>钱包说明</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="static/css/p.css" />
+</head>
+<body>
+    <h2>
+        1.什么是我的钱包？
+    </h2>
+    <p>
+只要您注册了好闲置，就可以立即拥有一个专属的“我的钱包”，我的钱包可实现退款存入、提现和余额查看功能。       </p>
+<h2>
+    2.钱包余额提现需要收取手续费吗？
+</h2>
+<p>
+    要的。每个账户终生只享有1000元的免费提现额度，超出后将按提现金额的2%收取提现手续费。
+</p>
+<h2>
+    3.钱包余额从哪里来？
+</h2>
+<p>
+    钱包余额=个人售卖所得+交易退款存入
+</p>
+<h2>
+    4.什么是钱包密码？
+</h2>
+<p>
+为了方便用户对钱包进行管理，确保钱包资金安全好闲置专门为用户提供了管理钱包的密码，当用户要对钱包里的余额进行提现时，必须通过钱包密码的校验方可进行操作。
+</p>
+<h2>
+5.怎么设置钱包密码？
+</h2>
+<p>
+余额为0的情况下，是无法设置钱包密码的；当余额不为0且用户首次提现时，系统即会自动触发钱包密码的唯一设置入口，用户可根据提示自行设定
+</p>
+<h2>
+    6.忘记钱包密码该怎么办？
+</h2>
+<p>
+    到“我”-我的钱包-“钱包密码”-“找回钱包密码”通过输入注册时填写的手机号码或者绑定的手机号码后，再次找回您的钱包密码。
+</p>
+<h2>
+    7.钱包余额是否可以进行支付？
+</h2>
+<p>
+目前暂时不支持使用钱包里的余额进行购买支付。       </p>
+<h2>
+    8.钱包提现
+</h2>
+<p>
+可在登陆后进入“我”-我的钱包“-”提现“根据提示进行提现操作，单日最大提现次数为3次，每个账户当天提现限额3000元。
+</p>
+<h2>
+    9.钱包退款
+</h2>
+<p>
+    在好闲置交易的过程中，用户可能会产生退款，成功申请退款的款项，系统将直接退到好闲置个人账户“我的钱包”余额中，是即时到账的，用户可直接对退款进行提现到支付宝。
+</p>
+</body>
+
+
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>
