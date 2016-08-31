@@ -77,7 +77,8 @@ var jsonDate = [
             shortName:"APP闪退",
             isShowIndex:true,
         }]
-    },{
+    },
+    {
         model:"交易相关",
         rank:2,
         href:"deal",
@@ -184,7 +185,8 @@ var jsonDate = [
                 isShowIndex:false,
             }
         ]
-    },{
+    },
+    {
         model:"退款相关",
         rank:3,
         href:"drawback",
@@ -241,7 +243,8 @@ var jsonDate = [
                 isShowIndex:false
             }
         ]
-    },{
+    },
+    {
         model:"商品相关",
         rank:4,
         href:"goods",
@@ -286,6 +289,102 @@ var jsonDate = [
                 name:"商品下架标准",
                 shortName:"",
                 isShowIndex:false
+            }
+        ]
+    },
+    {
+        model:"物流相关",
+        rank:5,
+        href:"delivery",
+        children:[
+            {
+                childrenRank:1,
+                name:"发货时，为什么不能手动输入快递单号？",
+                shortName:"单号扫描",
+                isShowIndex:true
+            },{
+                childrenRank:2,
+                name:"扫描录入快递单号时，发现单号自动录入错误或无法录入，该怎么办？",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:3,
+                name:"物流单号提交后是否能修改？",
+                shortName:"修改单号",
+                isShowIndex:true
+            },{
+                childrenRank:4,
+                name:"订单显示商品已被签收，但我始终没收到货，怎么办？",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:5,
+                name:"我已发货，但是没能及时填写物流信息，导致买家已申请退款怎么办？",
+                shortName:"没收到货",
+                isShowIndex:true
+            },{
+                childrenRank:6,
+                name:"好闲置的物流更新比快递公司要慢，怎么办？",
+                shortName:"物流无信息",
+                isShowIndex:true
+            }
+        ]
+    },
+    {
+        model:"交易安全",
+        rank:6,
+        href:"safety",
+        children:[
+            {
+                childrenRank:1,
+                name:"有欺诈嫌疑的卖家特征",
+                shortName:"警惕欺诈",
+                isShowIndex:true
+            },{
+                childrenRank:2,
+                name:"不受好闲置保护的交易行为有哪些？",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:3,
+                name:"发现某个卖家是骗子怎么办？",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:4,
+                name:"见面交易注意事项!",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:5,
+                name:"警惕假客服欺诈!",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:6,
+                name:"警惕超低价苹果手机和QQ联系等高风险交易!",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:7,
+                name:"有人恶意骚扰、辱骂我，怎么办？",
+                shortName:"被恶意骚扰",
+                isShowIndex:true
+            },{
+                childrenRank:8,
+                name:"平台严厉禁止行为及惩罚机制",
+                shortName:"",
+                isShowIndex:false
+            },{
+                childrenRank:9,
+                name:"账户资金被冻结了或封停了，怎么办？",
+                shortName:"资金被冻结",
+                isShowIndex:true
+            },{
+                childrenRank:10,
+                name:"账户资金被冻结了或封停了，怎么办？",
+                shortName:"账户被警用",
+                isShowIndex:true
             }
         ]
     }
