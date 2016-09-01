@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-交易相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>确认收货后，是否还能申请售后维权？</h1>
+<p>
+买家收到商品后，也请慎重点击“确认收货”，因为确认收货后订单即宣告结束，好闲置将会把货款直接打给卖家，届时已经完成交易的订单，好闲置将不再提供售后维权处理；
+</p>
+<p>
+    ·	系统自动确认收货
+自卖家发货起的7/(7+3)天买家收到商品但一直未确认收货的，好闲置系统将在第7（或第10）天后进行自动确认收货【(7+3)天是因为买家申请了一次延长收货时间的功能】
+</p>
+
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

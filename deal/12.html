@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-交易相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>为什么购买前无法私信对方了？</h1>
+<p>
+旧版本的好闲置（iosV2.0.5版本、安卓V2.0.8版本）是支持交易前后自由私聊的，但全新版本的好闲置（iosV2.0.5版本、安卓V2.0.8版本）是不再支持交易前私聊的，只支持交易前用户之间在商品下方评论互动；但一旦产生交易后（即用户间产生已拍下的订单），则在该订单内点击“私聊入口”，即可与有意向的买家/卖家直接发送消息私信，订单可在[我]-[买到]/[卖出]里面找到</p>
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

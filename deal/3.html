@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-交易相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>
+    交易流程
+</h1>
+<p>
+①挑选商品
+</p>
+<p>②提交订单（买家可取消订单）</p>
+<p>③支付订单（买家可取消订单）</p>
+<p>④支付完成（买家可在此环节单方面发起退款）</p>
+<p>⑤卖家发货（买家不可再发起退款申请，仅可等待收件）</p>
+<p>⑥买家收件（如收件有问题请先私下联系，此时可使用延迟3天收货功能，以便预留足够的时间进行沟通协商，如遇协商未果的可发送邮件至：kefu@haoxianzhi.com申请客服人工介入处理）</p>
+<p>⑦确认收货（完成交易，货款将汇入卖家账户钱包）</p>
+
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

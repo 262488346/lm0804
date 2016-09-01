@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-交易相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>卖家不发货，怎么办？</h1>
+<p>
+请先点击[我]-[买到]的找到该笔订单：
+</p>
+<p>
+ ·若订单状态为[待发货]，此时交易是不会自动确认收货打款给卖家的</p>
+<p>·您可点击[提醒发货]或直接在该订单私聊入口联系卖家确认发货情况</p>
+<p>·您还可以申请退款，申请后如果卖家72小时内不处理的，系统将自动退款给您。但若卖家点击发货，则退款将自动关闭。发货后的退款只能是在产生交易纠纷时，申请客人介入后由人工协助退款。
+
+</p>
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>
