@@ -380,11 +380,6 @@ var jsonDate = [
                 name:"账户资金被冻结了或封停了，怎么办？",
                 shortName:"资金被冻结",
                 isShowIndex:true
-            },{
-                childrenRank:10,
-                name:"账户资金被冻结了或封停了，怎么办？",
-                shortName:"账户被警用",
-                isShowIndex:true
             }
         ]
     }

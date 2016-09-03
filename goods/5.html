@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-商品相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>
+   什么是商品曝光？
+</h1>
+<p>
+·	曝光商品是可以让宝贝在曝光后立即出现在好闲置的首页，大大增加了宝贝售出的几率。</p>
+<p>
+·	每天单个商品最多有2次曝光功能的使用机会，2次机会使用完之后，当天将无法再对该商品进行曝光操作
+<p>
+·	每个账户每天的商品曝光数量不做限制</p>
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

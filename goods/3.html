@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-商品相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>
+    为什么我发布的商品被通知下架了？
+</h1>
+<p>
+卖家在好闲置上发布的商品，好闲置会对其进行随机排查，如发现不符合规定的商品图片，将按以下方式进行处理。</p>
+<p>
+    上架：买家在好闲置前台可以查看此商品，商品可正常出售；
+</p>
+<p>
+    下架：商品图片违规违法、或在商品描述中留有联系方式等滥发广告行为、认定假货、高仿等，将直接下架，被下架后的商品卖家可再次手动上架。永久删除：涉嫌严重违规的商品图片，如品类不相符合的、涉黄、传播不法言论、散播虚假信息、反动言论的，将被平台直接做删除处理，不再另行做删除通知。
+</p>
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

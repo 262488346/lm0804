@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-商品相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>
+    发布商品一段时间之后，为什么无法搜索到了？
+</h1>
+<p>
+    如果在好闲置搜索不到历史发布的商品，主要因素可能是以下情况：
+</p>
+<p>
+    1.	商品涉嫌违规被平台删除或下架了
+</p>
+<p>
+    2.	商品被其他用户举报并被平台删除或下架了
+</p>
+<p>
+    3.	账户当前有被“禁用”，无法再登陆的封停情况
+</p>
+<p>
+    4.	自己下架了，但一直未重新“上架”，需重新上架的，可在[我]-[发布]的页面找到该商品，点击“编辑“进行重新上架。
+</p>
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

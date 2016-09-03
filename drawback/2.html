@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-退款相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>
+    已付款的订单，是否可立即退款？
+</h1>
+<p>
+如订单的当前状态为[已付款]，可以直接向卖家申请退款，如订单状态为[已发货]，则将无法再在此订单上进行退款申请，详细规则如下：
+    <br>
+    ·	如卖家迟迟未发货的，买家可直接在此订单申请发起退款，一旦成功发起退款后，卖家只能同意该退款请求（不发货则说明此商品有可能是不存在的），卖家同意退款后，再按平台退款流程进行支付原路退回。
+    <br>
+    ·	卖家已发货的，买家将无法再申请退款（平台是为了防止卖家发货之后，买方就恶意退款，由此导致卖家货款两失的悲剧），此时买家可与对方积极协商，若未协商一致，在自动确认收货7-10天之前可直接发邮件至：kefu@haoxianzhi.com提交审核资料，将由人工介入协助买家退款。
+
+</p>
+
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

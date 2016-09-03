@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-物流相关</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="../static/css/p.css" />
+</head>
+<body>
+<h1>
+    发货时，为什么不能手动输入快递单号？
+</h1>
+<p>
+    为提升用户操作体验，减少快递单号录入错误，好闲置目前仅支持扫描录入快递单号，暂时不支持用户手动录入或提交后再次修改快递单号的操作。
+</p>
+
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 640) clientWidth = 640;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>
