@@ -380,7 +380,20 @@ var jsonDate = [
                 name:"账户资金被冻结了或封停了，怎么办？",
                 shortName:"资金被冻结",
                 isShowIndex:true
+            },{
+                childrenRank:9,
+                name:"账户资金被冻结了或封停了，怎么办？",
+                shortName:"账户被禁用",
+                isShowIndex:true
             }
         ]
     }
 ];
+
+
+//获取当前url参数
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return decodeURIComponent(unescape(r[2])); return null;
+}
