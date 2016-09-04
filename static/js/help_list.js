@@ -5,6 +5,7 @@ $(function(){
     var type = getQueryString("type");
     var html = [];
     $.each(jsonDate, function(i, list){
+        document.title = list.model;
         if(type == list.href){
             html.push('<ul>');
             $.each(list.children, function(j, item){

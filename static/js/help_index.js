@@ -46,16 +46,12 @@ $(function(){
             $.each(list.children, function(j, item){
                 if((item.name).indexOf(val) >= 0){
                     var name = item.name;
-                    console.log("name=", name);
                     name = name.replace(val,'<span>' + val + '</span>');
-                    console.log("name2=", name );
                     htmlStr.push('<li><a href="'+ list.href + "/" + item.childrenRank + '.html">' + name + '</a></li>');
                 }
                 if((item.shortName).indexOf(val) >= 0){
                     var name = item.shortName;
-                    console.log("name=", name);
                     name = name.replace(val,'<span>' + val + '</span>');
-                    console.log("name2=", name );
                     htmlStr.push('<li><a href="'+ list.href + "/" + item.childrenRank + '.html">' + name + '</a></li>');
                 }
             });
@@ -65,5 +61,6 @@ $(function(){
     $(".reset").click(function(){
         $("#search-txt").val("");
         $(".reset").hide();
+        $("#search-res-ul").html("");
     });
 });
