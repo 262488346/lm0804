@@ -9,7 +9,6 @@ $(function(){
         $("body").addClass("disablescroll");
         $("#search-txt").val("");
         $("#search-res-ul").html("");
-        $("#no-res").html("");
     });
 
     $(".search-area span").click(function(){
@@ -18,21 +17,7 @@ $(function(){
         $("#search-txt").val("");
         $("#search-res-ul").html("");
     });
-    $(".search-btn").click(function(){
-        var val = $.trim($("#search-txt").val());
-        if(val.length == 0){
-            return;
-        }
-        if($("#search-res-ul").find("li").length <= 0){
-            var noRes = [];
-            noRes.push('<div class="no-res-bg"><span><i></i></span></div>');
-            noRes.push('<p class="no-res-txt">没有搜索结果</p>');
-            noRes.push('<p class="no-change-txt">您可以更换关键词重新搜索</p>');
-            $("#no-res").html(noRes.join(""));
-        }else{
-            $("#no-res").html("");
-        }
-    });
+
     var html = [];
     $.each(jsonDate, function(i, item){
         html.push('<div class="model-'+ (i+1) +' model"><div class="left"><div class="img-bg"></div>');
@@ -46,7 +31,6 @@ $(function(){
     });
     $("#help-content").html(html.join(""));
     $("#search-txt").on("keyup input", function () {
-        $("#no-res").html("");
         var _this = $(this);
         var val = $.trim(_this.val());
         if(val.length <= 0){

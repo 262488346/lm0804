@@ -199,7 +199,7 @@ var jsonDate = [
             },{
                 childrenRank:2,
                 name:"已付款的订单，是否可立即退？",
-                shortName:"付款后退款",
+                shortName:"退款后付款",
                 isShowIndex:true
             },{
                 childrenRank:3,

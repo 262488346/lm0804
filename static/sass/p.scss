@@ -56,20 +56,20 @@ p{
       word-break: break-all;
       white-space: nowrap;
       text-overflow: ellipsis;
-      border-bottom: #e0e0e0 1px solid;
+      border-bottom: #d1d1d3 1px solid;
       a{
         color: #48484a;
         text-decoration: none;
       }
       i{
         display: block;
-        @include remCalc(width,12);
-        @include remCalc(height,12);
+        @include remCalc(width,16);
+        @include remCalc(height,16);
         background: url("../images/arr.png") no-repeat;
         background-size: 100% 100%;
         position: absolute;
         @include remCalc(right,10);
-        @include remCalc(top,19);
+        @include remCalc(top,16);
       }
     }
   }
@@ -79,7 +79,7 @@ p{
   min-width: 320px;
   max-width: 640px;
   min-height: 100%;
-  background-color: #f8f8f8;
+  background-color: #f3f3f3;
   padding: 0;
   background: #f4f9fa;
   .search{
@@ -96,11 +96,11 @@ p{
     i{
       display: inline-block;
       margin-right: 3px;
-      @include remCalc(width,13);
-      @include remCalc(height,13);
+      @include remCalc(width,16);
+      @include remCalc(height,16);
       background: url("../images/search.png") no-repeat;
       background-size: 100% 100%;
-      @include remCalc(vertical-align,-3);
+      @include remCalc(vertical-align,-4);
     }
   }
 }
@@ -274,7 +274,7 @@ p{
       @include remCalc(height,25);
       @include remCalc(line-height,25);
       color: #fff;
-      background: #E31436;
+      background: #FF5A17;
       text-align: center;
       text-decoration: none;
       border-radius: 5px;
@@ -286,7 +286,7 @@ p{
   .search-res{
     ul{
       li{
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid #ccc;
         @include remCalc(padding,10);
         a{
           display: block;
@@ -460,42 +460,4 @@ p{
 		-webkit-transform: translateX(100%);
 		transform: translateX(100%)
 	}
-}
-
-
-.no-res{
-  .no-res-bg{
-      @include remCalc(margin-top,100);
-    span{
-      overflow: hidden;
-      @include remCalc(width,90);
-      @include remCalc(height,90);
-      margin: 0 auto;
-      display: block;
-      border-radius: 50%;
-      background: #ccc;
-    }
-    text-align: center;
-    i{
-
-      display: block;
-      @include remCalc(margin-top,25);
-      @include remCalc(margin-left,25);
-      @include remCalc(width,40);
-      @include remCalc(height,40);
-      background: url("../images/no-res.png") no-repeat;
-      background-size: 100% 100%;
-
-    }
-  }
-  .no-res-txt{
-    text-align: center;
-    @include remCalc(font-size,16);
-    @include remCalc(margin-top,15);
-    color: #444;
-  }
-  .no-change-txt{
-    color: #999;
-    text-align: center;
-  }
 }
